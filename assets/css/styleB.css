@@ -1,5 +1,5 @@
 body {
-    background-image: url("../placeholders/watercolor-abstract-purple-background_23-2149120778.webp");
+    background-color: #fd8c5c;
     overflow: hidden;
 }
 
@@ -11,7 +11,7 @@ body {
 
 }
 .leftbox {
-    background-color:grey;
+    background-color:#fd8c5c;
 }
 
 .col-md-3 {
@@ -27,7 +27,7 @@ body {
 }
 
 .contentbox {
-    background-color: rgb(233, 200, 252);
+    background-color: #fff;
 
 }
 
@@ -39,12 +39,14 @@ body {
 }
 
 .card-header{
-    background-color: mediumpurple;
+    background-color: #fff;
     height:2em;
 }
 
 .card-body{
-    background-color: white;
+    /* background-color: white; */
+    background-color: #fff;
+
 }
 
 .card {
@@ -78,14 +80,14 @@ input{
     text-align: center;
     margin: 2rem 2rem 2rem 10rem;
     text-decoration: none;
-    color: white;
-    background: orange;
+    color: #fd8c5c;
+    background: eb5d1e;
     border-radius: 4px;
 }
 
 .btnB:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 cornflowerblue;
+    box-shadow: 0 0.4rem 1.4rem 0 eb5d1e;
     transition: transform 150ms;
     transform: scale(1.03);
 
@@ -102,21 +104,21 @@ input{
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: rebeccapurple;
+    background: #ffa781;
     font-size: 1rem;
     min-width: 5rem;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 lightpink;
+    box-shadow: 0 0.4rem 1.4rem 0 eb5d1e;
     transform: scale(1.02);
 }
 
 .choice-prefix {
     padding: 2rem 1rem;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .choice-text{
@@ -177,6 +179,6 @@ h3{
 }
 
 .quiz-photo{
-    max-width: 30%;
+    max-width: 10%;
     padding: 20px;
 }

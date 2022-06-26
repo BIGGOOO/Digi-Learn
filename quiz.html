@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -13,104 +14,150 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- css components -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link href="assets/css/styleB.css" rel="stylesheet">
 </head>
+
 <body>
-<!-- Page -->
-<div class="container mw-100">
-  <div class="row ">
-    <!-- Left Column -->
-    <div class="col-md-2 vh-100">
-      <div class="card mt-5 rounded-4">
-        <div class="card-header">
-        </div>
-        <!-- Profile -->
-        <div class="card-body">
-          <h2>Profile</h2>
-          <a href="/Digi-Learn/landing.html?_ijt=53k3p842bv1qe1ddulqggcl5vt">
-          <img src="assets/placeholders/profile-pic%20(12).png" class="rounded-circle img-thumbnail profilepic " alt="placeholder profile picture">
-          </a>
-          <h4>Martin William</h4>
-        </div>
-        <div class="card-body">
-          <!-- Menu -->
-          <h2>Menu</h2>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <a href="/Digi-Learn/index.html?_ijt=bq2mrc9sa440pja3lpg1oachq3">Home</a></li>
-            <li class="list-group-item">
-              <a href="/Digi-Learn/index.html?_ijt=bq2mrc9sa440pja3lpg1oachq3/#about">About Us</a></li>
-            <li class="list-group-item">
-              <a href="/Digi-Learn/index.html?_ijt=bq2mrc9sa440pja3lpg1oachq3/#services">Services</a></li>
-            <li class="list-group-item">
-              <a href="/Digi-Learn/index.html?_ijt=bq2mrc9sa440pja3lpg1oachq3/#portfolio">Courses</a></li>
-            <li class="list-group-item">
-              <a href="/Digi-Learn/index.html?_ijt=bq2mrc9sa440pja3lpg1oachq3#contact">Contact</a></li>
-          </ul>
+  <!-- Page -->
+  <div class="container mw-100">
+    <div class="row ">
+      <!-- Left Column -->
+      <div class="col-md-2 vh-100">
+        <div class="card mt-5 rounded-4">
+          <div class="card-header">
+          </div>
+          <!-- Profile -->
+          <div class="card-body">
+            <h2>Profile</h2>
+            <a href="/Digi-Learn/landing.html?_ijt=53k3p842bv1qe1ddulqggcl5vt">
+              <img src="assets/placeholders/profile-pic%20(12).png" class="rounded-circle img-thumbnail profilepic "
+                alt="placeholder profile picture">
+            </a>
+            <h4>Martin William</h4>
+          </div>
+          <div class="card-body">
+            <!-- Menu -->
+            <h2>Menu</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="index.html">About Us</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="index.html">Services</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="index.html">Courses</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="index.html">Contact</a>
+                </li>
+            </ul>
         </div>
 
-        <!-- Menu Footer -->
-        <div class="card-body">
-          <img src="assets/placeholders/rocket.png" class="logo my-2">
-          <br>
-          <a href="#" class="card-link">Logout</a>
+          <!-- Menu Footer -->
+          <div class="card-body">
+            <img src="assets/placeholders/rocket.png" class="logo my-2">
+            <br>
+            <a href="#" class="card-link">Logout</a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Middle column -->
-    <div class="col-md-7 overflow-auto mt-5">
-      <div  class="row mx-5 my-3 rounded-4 shadow-sm contentbox">
-        <div class="row h-100 justify-content-center align-items-center">
-          <div class="box my-2" id="box">
-            <div id="hud">
-              <div class="hud-item">
-                <p id="progressText" class="hud-prefix">
-                  Question
-                </p>
-                <div id="progressBar">
-                  <div id="progressBarFull"></div>
+      <!-- Middle column -->
+      <div class="col-md-7 overflow-auto mt-5">
+        <div class="row mx-5 my-3 rounded-4 shadow-sm contentbox">
+          <div class="row h-100 justify-content-center align-items-center">
+            <div class="box my-2" id="box">
+              <div id="hud">
+                <div class="hud-item">
+                  <p id="progressText" class="hud-prefix">
+                    Question
+                  </p>
+                  <div id="progressBar">
+                    <div id="progressBarFull"></div>
+                  </div>
+                </div>
+                <div id="hud-item">
+                  <p class="hud-prefix">
+                    Score
+                  </p>
+                  <h1 class="hud-main-text" id="score">
+                    0
+                  </h1>
                 </div>
               </div>
-              <div id="hud-item">
-                <p class="hud-prefix">
-                  Score
-                </p>
-                <h1 class="hud-main-text" id="score">
-                  0
-                </h1>
+              <h3 id="question">What is the answer to this question?</h3>
+              <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number="1">Choice 1</p>
               </div>
+              <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2">Choice 2</p>
+              </div>
+              <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number="3">Choice 3</p>
+              </div>
+              <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4">Choice 4</p>
+              </div>
+              <input type="submit" onClick="myFunction()"/>
+              <script>
+                function myFunction() {
+                  window.location.href="end1.html";
+                }
+              </script>
             </div>
-            <h3 id="question">What is the answer to this question?</h3>
+          </div>
+        </div>
+        <!-- <div class="container mt-sm-5 my-1">
+          <div class="question ml-sm-5 pl-sm-5 pt-2">
+            <div id="question"><b>What is the answer to this question?</b></div>
             <div class="choice-container">
               <p class="choice-prefix">A</p>
               <p class="choice-text" data-number="1">Choice 1</p>
             </div>
             <div class="choice-container">
               <p class="choice-prefix">B</p>
-              <p class="choice-text" data-number="2">Choice 1</p>
+              <p class="choice-text" data-number="2">Choice 2</p>
             </div>
             <div class="choice-container">
               <p class="choice-prefix">C</p>
-              <p class="choice-text" data-number="3">Choice 1</p>
+              <p class="choice-text" data-number="3">Choice 3</p>
             </div>
             <div class="choice-container">
               <p class="choice-prefix">D</p>
-              <p class="choice-text" data-number="4">Choice 1</p>
+              <p class="choice-text" data-number="4">Choice 4</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center pt-3">
+            <div id="prev">
+              <button class="btn btn-primary">Previous</button>
+            </div>
+            <div class="ml-auto mr-sm-5">
+              <button class="btn btn-success">Next</button>
             </div>
           </div>
         </div>
+ -->
+        <!-- Right Column -->
+        <div class="col-md-3 overflow-hidden">
+        </div>
       </div>
     </div>
-    <!-- Right Column -->
-    <div class="col-md-3 overflow-hidden">
-    </div>
-  </div>
-</div>
 
 
-<script src="assets/js/program.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="assets/js/program.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
 </body>
+
 </html>

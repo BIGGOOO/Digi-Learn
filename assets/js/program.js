@@ -69,11 +69,11 @@ startGame = () => {
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
-        if(score >= 400) {
-            return window.location.assign("/Digi-Learn/end1.html?_ijt=hqq7508qlkc2cuh9omem48sv9q")
+        if(score >= 0) {
+            return window.location.assign("file:///home/bigg000/Hackathon/Digital%20Education%20Application/Digi-Learn/end1.html")
         }
         else {
-            return window.location.assign("/Digi-Learn/end2.html?_ijt=omjtanr9ljdm1djjfkb63ehtqt")
+            return window.location.assign("file:///home/bigg000/Hackathon/Digital%20Education%20Application/Digi-Learn/end2.html")
         }
     }
 
