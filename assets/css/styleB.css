@@ -1,0 +1,182 @@
+body {
+    background-image: url("../placeholders/watercolor-abstract-purple-background_23-2149120778.webp");
+    overflow: hidden;
+}
+
+.profilepic{
+    width: 30%;
+}
+
+.col-md-2 {
+
+}
+.leftbox {
+    background-color:grey;
+}
+
+.col-md-3 {
+}
+
+.col-md-7 {
+
+}
+
+
+.row {
+    /* border: blue solid 2px */
+}
+
+.contentbox {
+    background-color: rgb(233, 200, 252);
+
+}
+
+.recc{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    border:blue solid 10px;
+}
+
+.card-header{
+    background-color: mediumpurple;
+    height:2em;
+}
+
+.card-body{
+    background-color: white;
+}
+
+.card {
+    border: none;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+input{
+    margin-top: 2em;
+}
+
+.box {
+
+}
+
+
+
+
+.hidden {
+    display: none;
+}
+
+.btnB {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+    width: 20rem;
+    text-align: center;
+    margin: 2rem 2rem 2rem 10rem;
+    text-decoration: none;
+    color: white;
+    background: orange;
+    border-radius: 4px;
+}
+
+.btnB:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 cornflowerblue;
+    transition: transform 150ms;
+    transform: scale(1.03);
+
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rebeccapurple;
+    font-size: 1rem;
+    min-width: 5rem;
+    color: white;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 lightpink;
+    transform: scale(1.02);
+}
+
+.choice-prefix {
+    padding: 2rem 1rem;
+    color: white;
+}
+
+.choice-text{
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(32deg, green 0%, darkgreen 100%)
+}
+
+.incorrect {
+    background: linear-gradient(32deg, red 0%, darkred 100%)
+}
+@media screen and (max-width: 760px) {
+    .choice-container {
+        min-width: 10rem;
+    }
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid green;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: green;
+    width: 0;
+}
+
+#home {
+margin: 2rem;
+}
+
+h3{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.quiz-photo{
+    max-width: 30%;
+    padding: 20px;
+}
